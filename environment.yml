@@ -1,0 +1,17 @@
+name: airtel-udyam-digital
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pandas
+  - numpy
+  - scikit-learn
+  - pillow
+  - pip:
+      - streamlit>=1.35.0
+      - fastapi>=0.110.0
+      - uvicorn>=0.28.0
+      - pydantic>=2.5.0
+
